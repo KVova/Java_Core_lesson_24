@@ -1,10 +1,6 @@
 package volodymyr;
 
 public class Seance{
-
-	private Movie movie;
-	private Time startTime;
-	private Time endTime;
 	
 	public Seance(Movie movie, Time startTime) throws Exception {
 		super();
@@ -42,6 +38,8 @@ public class Seance{
 		return "Seance: movie=" + movie + ", startTime=" + startTime + ", endTime=" + endTime;
 	}
 
-	
+	private Movie movie;
+	private Time startTime;
+	private Time endTime;
 	
 }

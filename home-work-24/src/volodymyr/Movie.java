@@ -1,9 +1,6 @@
 package volodymyr;
 
 public class Movie {
-
-	private String title;
-	private Time duration;
 	
 	public Movie(String title, Time duration) {
 		super();
@@ -27,5 +24,8 @@ public class Movie {
 	public String toString() {
 		return "Title - " + title + ", duration - " + duration + "";
 	}
+	
+	private String title;
+	private Time duration;
 	
 }

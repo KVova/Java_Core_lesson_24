@@ -2,9 +2,6 @@ package volodymyr;
 
 public class Time {
 
-	private int min;
-	private int hour;
-
 	public Time(int min, int hour) throws Exception {
 		if (min < 0 || min > 60)
 			throw new Exception("You incorrect inputs minutes");
@@ -45,5 +42,8 @@ public class Time {
 	public String toString() {
 		return "Time: " + "hour - " + hour + " min - " + min;
 	}
+	
+	private int min;
+	private int hour;
 
 }

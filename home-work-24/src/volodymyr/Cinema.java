@@ -7,11 +7,6 @@ import java.util.TreeMap;
 
 public class Cinema {
 
-	private Time open;
-	private Time close;
-	private TreeMap<Days, Schedule> schedules;
-	private ArrayList<Movie> moviesLibrary = new ArrayList<>();
-
 	public Cinema(Time open, Time close) {
 		super();
 		this.open = open;
@@ -96,5 +91,10 @@ public class Cinema {
 			System.out.println("This seance not found!");
 		}
 	}
+	
+	private Time open;
+	private Time close;
+	private TreeMap<Days, Schedule> schedules;
+	private ArrayList<Movie> moviesLibrary = new ArrayList<>();
 	
 }
